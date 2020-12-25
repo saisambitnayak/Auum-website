@@ -198,7 +198,7 @@ let image_buffer = [
 let count = 0
 
 setInterval(() => {
-    console.log(count)
+    //console.log(count)
     home_bg.style.backgroundImage = `url(${image_buffer[count]})`
     count++
     if (count == image_buffer.length) count = 0

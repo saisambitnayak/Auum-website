@@ -805,7 +805,7 @@ h6 {
 @media (max-width: 767px) {
   #intro {
     height: auto;
-    padding: 80px 0 60px 0;
+    /* padding: 80px 0 60px 0; */
   }
 
   #intro .container {
@@ -942,5 +942,77 @@ margin: 0 0 30px 0;
 margin-right: 15px;
 margin-bottom: 30px;
 letter-spacing: 0.4px;
+}
+
+.aboutusL1{
+  text-align: center; color: white; background-color: black; margin: 100px
+}
+.aboutusP{
+  font-size:22px; text-align: center; padding-left: 8rem; padding-right: 8rem;
+}
+#about .container{
+  margin: 100px;
+}
+#about h3{
+  text-align: start; 
+}
+
+.ourPartners img{
+  margin: 20px 0;
+  box-shadow: 5px 10px #888888;
+  width: 50%;
+}
+.ourPartners{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #1EBEA5; */
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
+}
+header.section-title h3{
+  text-align: center;
+  /* background-color: red; */
+}
+.hider2 .carousel-inner{
+  display: none;
+}
+@media(max-width: 500px){
+  .aboutusL1{
+    margin: 20px;
+  }
+  .aboutusP{
+    padding-left: 40px; padding-right: 40px;
+  }
+  .aboutusL1 p{
+    margin-top: 50px;
+  }
+  #about .container{
+    /* background-color: red; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin: 0 25px;
+    width: 100px;
+  }
+  #about h3{
+    text-align: center;
+  }
+  .ourPartners{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hider1 .carousel-inner{
+    display: none;
+  }
+  .hider2 .carousel-inner{
+    display: block;
+  }
 }
 
